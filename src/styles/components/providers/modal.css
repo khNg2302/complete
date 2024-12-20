@@ -1,0 +1,19 @@
+.modal{
+    @apply fixed inset-0 flex justify-center items-center
+}
+
+.modal .modal__overlay {
+    @apply absolute inset-0 bg-black/30 -z-0
+}
+
+.modal .modal__content {
+    @apply z-10 relative bg-white max-w-full min-w-[80%] p-rounded-children-parent rounded-rect flex flex-col gap-1
+}
+
+.modal .modal__title {
+    @apply between-row
+}
+
+.modal .modal__footer {
+    @apply flex row-gap !justify-end
+}

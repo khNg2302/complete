@@ -1,0 +1,41 @@
+@import "./components/providers/modal.css";
+@import "./components/providers/button.css";
+@import "./components/providers/drawer.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .between-row{
+        @apply flex justify-between items-center row-gap
+    }
+
+    .row{
+        @apply flex gap-2 items-center
+    }
+
+    .row-gap {
+        @apply gap-2
+    }
+
+    .p-rect {
+        @apply px-4 py-2
+    }
+
+    .p-rect-small{
+        @apply px-2 py-1
+    }
+
+    .p-square{
+        @apply p-2
+    }
+
+    .p-rounded-children-parent {
+        @apply p-4
+    }
+
+    .rounded-rect{
+        @apply rounded-md
+    }
+}

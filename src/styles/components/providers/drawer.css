@@ -1,0 +1,39 @@
+.drawer{
+    @apply fixed inset-0 flex justify-end gap-4
+}
+
+.drawer.left{
+    @apply justify-start
+}
+
+.drawer .drawer__overlay{
+    @apply absolute inset-0 bg-black/30
+}
+
+.drawer .drawer__content{
+    @apply bg-white relative w-full max-w-[50%] h-full p-square flex flex-col md:p-0
+}
+
+.drawer .drawer__title{
+    @apply between-row
+}
+
+.drawer .drawer__body{
+    @apply between-row flex-1
+}
+
+.drawer .drawer__footer{
+    @apply flex justify-end
+}
+
+.menu {
+    @apply md:relative h-full md:w-[200px]
+}
+
+.menu .drawer__overlay{
+    @apply md:hidden
+}
+
+.menu .drawer__content{
+    @apply md:max-w-full
+}

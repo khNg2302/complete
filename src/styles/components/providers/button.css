@@ -1,0 +1,19 @@
+.btn {
+  @apply p-rect border rounded-rect;
+}
+
+.btn-default {
+  @apply bg-slate-200 border-slate-200 hover:bg-slate-100 hover:border-slate-100;
+}
+
+.btn-ghost {
+  @apply border-transparent hover:bg-slate-50 hover:border-slate-50;
+}
+
+.btn-primary {
+  @apply bg-blue-400 border-blue-400 text-white hover:bg-blue-300 hover:border-blue-300;
+}
+
+.btn-circle {
+  @apply rounded-full p-square;
+}
